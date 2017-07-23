@@ -468,7 +468,7 @@ clean_and_return:
 /*
  * JNI registration.
  */
-static JNINativeMethod gMethods[] =
+static const JNINativeMethod gMethods[] =
 {
    {"doConnect", "()Z",
       (void *)com_android_nfc_NativeP2pDevice_doConnect},

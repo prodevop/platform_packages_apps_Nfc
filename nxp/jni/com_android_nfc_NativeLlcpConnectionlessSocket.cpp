@@ -234,7 +234,7 @@ static jboolean com_android_nfc_NativeLlcpConnectionlessSocket_doClose(JNIEnv *e
 /*
  * JNI registration.
  */
-static JNINativeMethod gMethods[] =
+static const JNINativeMethod gMethods[] =
 {
    {"doSendTo", "(I[B)Z", (void *)com_android_nfc_NativeLlcpConnectionlessSocket_doSendTo},
       

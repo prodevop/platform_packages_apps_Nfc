@@ -2366,7 +2366,7 @@ static jstring com_android_nfc_NfcManager_doDump(JNIEnv *e, jobject)
 /*
  * JNI registration.
  */
-static JNINativeMethod gMethods[] =
+static const JNINativeMethod gMethods[] =
 {
    {"doDownload", "()Z",
         (void *)com_android_nfc_NfcManager_doDownload},
