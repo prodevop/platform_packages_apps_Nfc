@@ -1203,7 +1203,7 @@ clean_and_return:
 /*
  * JNI registration.
  */
-static JNINativeMethod gMethods[] =
+static const JNINativeMethod gMethods[] =
 {
    {"doConnect", "(I)I",
       (void *)com_android_nfc_NativeNfcTag_doConnect},

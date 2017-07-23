@@ -434,7 +434,7 @@ static jint com_android_nfc_NativeLlcpSocket_doGetRemoteSocketRW(JNIEnv *e, jobj
 /*
  * JNI registration.
  */
-static JNINativeMethod gMethods[] =
+static const JNINativeMethod gMethods[] =
 {
    {"doConnect", "(I)Z",
       (void *)com_android_nfc_NativeLlcpSocket_doConnect},

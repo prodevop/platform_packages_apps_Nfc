@@ -211,7 +211,7 @@ static jboolean com_NativeLlcpServiceSocket_doClose(JNIEnv *e, jobject o)
 /*
  * JNI registration.
  */
-static JNINativeMethod gMethods[] =
+static const JNINativeMethod gMethods[] =
 {
    {"doAccept", "(III)Lcom/android/nfc/dhimpl/NativeLlcpSocket;",
       (void *)com_NativeLlcpServiceSocket_doAccept},
