@@ -1850,7 +1850,7 @@ void nativeNfcTag_deregisterNdefTypeHandler ()
 ** JNI functions for Android 4.0.3
 **
 *****************************************************************************/
-static JNINativeMethod gMethods[] =
+static const JNINativeMethod gMethods[] =
 {
    {"doConnect", "(I)I", (void *)nativeNfcTag_doConnect},
    {"doDisconnect", "()Z", (void *)nativeNfcTag_doDisconnect},
